@@ -17,6 +17,14 @@
   	color: #fff;
 	display: inline;
 }
+.intro-card{
+	margin-left: 25px;
+	margin-right: 25px;
+	--bs-card-border-color: none;
+}
+.list-group{
+	--bs-list-group-border-color: none;
+}
 .navbar {
     padding-top: 15px;
     padding-bottom: 15px;
