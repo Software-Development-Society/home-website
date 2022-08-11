@@ -1,0 +1,39 @@
+.footer-padding {
+	padding-bottom: 60px;
+}
+
+.footer {
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	width: 100%;
+	height: 60px;
+	background-color: #ffffff;
+}
+
+.footer p {
+	margin-top: 25px;
+	font-size: 20px;
+  	color: #000000;
+	display: inline;
+}
+.intro-card{
+	margin-left: 25px;
+	margin-right: 25px;
+	--bs-card-border-color: none;
+}
+.list-group{
+	--bs-list-group-border-color: none;
+}
+.navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.navbar-nav  li a:hover {
+    color: #1abc9c !important;
+}
