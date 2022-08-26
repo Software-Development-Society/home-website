@@ -1,7 +1,22 @@
 .footer-padding {
 	padding-bottom: 60px;
 }
-
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+body{
+	-webkit-text-size-adjust: 100%;
+}
+.mainCont{
+	width: 55%; 
+	display: flex;
+	margin-top: 2.5rem;
+}
 .footer {
 	position: absolute;
 	text-align: center;
@@ -35,5 +50,70 @@
     letter-spacing: 5px;
 }
 .navbar-nav  li a:hover {
-    color: #1abc9c !important;
+    color: #1250d6 !important;
 }
+.overlay{
+	background-image: linear-gradient(to right top, #6390c0, #6c98bc, #789eb7, #88a4b2, #99a9af);
+	background-color: #7c7979;
+	margin-top: 70px;
+}
+.navHead2{
+	display: none;
+}
+.responsive {
+	width: 100%;
+	height: auto;
+  }
+
+  @media (max-width: 988px) {
+	.navHead2{
+		display: block;
+	}
+	.navHead{
+		display: none;
+	}
+  }
+  
+  @media (max-width: 750px) {
+	img{
+		display: none;
+	}
+	p{
+		text-align: center;
+	}
+  }
+  
+  
+  
+/*
+@media (max-width:640px) and (orientation: landscape) {
+    body {-webkit-text-size-adjust: 100%;}
+} */
+
+/* @media (max-width: 1000px) {
+	p{
+		font-size: xxx-large;
+	}
+	.navHead{
+		font-size: xx-large;
+	}
+	.navText{
+		height: 30%;
+		font-size: x-large;
+	}
+}
+@media only screen 
+    and (device-width: 375px) 
+    and (device-height: 812px) 
+    and (-webkit-device-pixel-ratio: 3) { 
+		p{
+			font-size: xxx-large;
+		}
+		.navHead{
+			font-size: xx-large;
+		}
+		.navText{
+			height: 30%;
+			font-size: x-large;
+		}
+	} */
