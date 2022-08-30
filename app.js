@@ -36,6 +36,7 @@ app.get("/thanks", function (req, res) {
 });
 
 app.post('/club/signup', async function (req, res) {
+  disc.sendMessage2("Someone has visited the sign up page!");
   let attend1st = "No";
   if (req.body.attendFirst) {
     attend1st = "Yes";
