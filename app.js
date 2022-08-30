@@ -29,14 +29,12 @@ app.get("/projects", function (req, res) {
 });
 app.get("/club/signup", function (req, res) {
   res.render("signup");
+  disc.sendMessage2("Someone has visited the sign up page!");
+  
 });
 app.get("/thanks", function (req, res) {
   let name = req.query.name;
   res.render("thanks", { name: name });
-});
-app.get('/club/signup', function (req, res) {
-  console.log("hello")
-  disc.sendMessage2("Someone has visited the sign up page!");
 });
 
 app.post('/club/signup', async function (req, res) {
