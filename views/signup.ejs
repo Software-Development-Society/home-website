@@ -1,0 +1,29 @@
+<%- include("partials/header"); -%>
+<div class="rounded form-mobile"
+        style="overflow: auto; background-color: #cfcfcf; padding: 30px;">
+        <form action="/club/signup" method="post" id="signup" style="object-fit: contain;">
+                <div class="mb-3">
+                        <label class="form-label">First Name</label>
+                        <input type="text" class="form-control" name="fName">
+                </div>
+                <div class="mb-3">
+                        <label class="form-label">Last Name</label>
+                        <input type="text" class="form-control" name="lName">
+                </div>
+                <div class="mb-3">
+                        <label class="form-label">Email address</label>
+                        <input type="email" class="form-control" name="emailInput">
+                        <div id="emailHelp" class="form-text">We'll never share your info with anyone else.</div>
+                </div>
+                <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" name="attendFirst">
+                        <label class="form-check-label">I will be able to attend the first meeting.</label>
+                </div>
+                <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" name="attendFuture">
+                        <label class="form-check-label">I will not be able to attend the first meeting but I plan to attend future meetings.</label>
+                </div>
+                
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+</div>

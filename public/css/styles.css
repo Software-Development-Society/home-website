@@ -103,7 +103,16 @@ body {
 	}
 
 }
+.form-mobile{
+	width: 40%; 
+	margin: auto; 
+	margin-top: 10%;
+}
 @media (max-width: 1200px) {
+	.form-mobile{
+		width: 85%;
+		margin-top: 30%;
+	}
 	.im2 {
 		display: none;
 	}

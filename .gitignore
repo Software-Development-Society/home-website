@@ -10,3 +10,4 @@
 /ZeppelinRemoteNotebooks/
 /.idea
 node_modules
+.env
