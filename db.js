@@ -3,7 +3,7 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 const uri = process.env.MDB;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
-let test = {firstName: "test", lastName: "test", email: "test@email.com", attendFirst: true, attendFuture: true}
+let test = { firstName: "test", lastName: "test", email: "test@email.com", attendFirst: true, attendFuture: true }
 
 function insert(obj) {
     client.connect(async err => {
@@ -18,4 +18,4 @@ function insert(obj) {
     });
 }
 
-module.exports = {insert};
+module.exports = { insert };
