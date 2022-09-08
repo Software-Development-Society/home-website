@@ -21,6 +21,14 @@ app.get("/", function (req, res) {
 app.get("/otherinfo", function (req, res) {
   res.render("other");
 });
+app.get("/notion", function (req, res) {
+  res.redirect("https://mighty-character-5a7.notion.site/163802b6135448d6a1a8c6ee71b2fe89?v=4e1b6e6f24aa4792938208469ca7b0d9");
+});
+
+app.get("/discord", function (req, res) {
+  res.redirect("https://discord.gg/qQdQ269W");
+});
+
 app.get("/meettheteam", function (req, res) {
   res.render("meet");
 });
